@@ -1,0 +1,23 @@
+/* OtpPage.css */
+
+.otp-container {
+  display: flex;
+}
+
+.otp-input .input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 5px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  /* Default underline color */
+  outline: none;
+  color: #fff;
+  /* Set the text color to black */
+}
+
+.otp-input:not(:placeholder-shown) {
+  border-bottom: 2px solid blue;
+}

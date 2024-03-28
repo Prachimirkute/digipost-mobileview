@@ -1,0 +1,69 @@
+.SidebarIconsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SidebarItem {
+  list-style: none;
+  padding: 10px;
+}
+
+.SidebarLink {
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SidebarIconContainer {
+  width: 40px;
+  height: 40px;
+}
+
+.SidebarIcon {
+  width: 35px;
+  height: 35px;
+  color: grey;
+}
+
+.SidebarIcon.active {
+  background-color: #8d279f;
+}
+
+.SidebarIcon-Label {
+  font-size: 10px;
+  color: grey;
+  overflow-wrap: normal;
+
+}
+
+.SidebarItem:focus .SidebarIconContainer {
+  border-radius: 50px;
+  background-color: rgb(65, 18, 58);
+
+}
+
+.SidebarItem:focus .SidebarItem {
+  border-right: 2px solid rgb(65, 18, 58);
+}
+
+.SidebarSubmenuItem {
+  list-style: none;
+  padding: 10px;
+}
+
+.submenu-close {
+  display: none;
+  transition: max-height 0.3s ease;
+  /* Transition for submenu expansion */
+}
+
+.submenu-open {
+  display: block;
+  /* position: absolute;
+  left: -200px;
+  top: 0; */
+}

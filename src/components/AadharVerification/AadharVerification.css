@@ -1,0 +1,155 @@
+@property --a {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotating {
+  0% {
+    --a: 0deg;
+  }
+
+  100% {
+    --a: 360deg;
+  }
+}
+
+
+.AadharVerificationlogin {
+  position: absolute;
+  inset: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: #111111e0;
+  z-index: 1000;
+  box-shadow: inset 0 18px 20px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  overflow: hidden;
+}
+
+/* .box:hover .login {
+  inset: 40px;
+} */
+
+.AadharVerificationBx {
+  content: '';
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  transition: 0.5s;
+  transform: translateY(150px);
+  margin-bottom: 31%;
+}
+
+.box:hover .AadharVerificationBx {
+  transform: translateY(0px);
+}
+
+.AadharVerificationBx h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+.AadharVerificationBx h2 i {
+  color: #ff2770;
+}
+
+.AadharVerificationBx input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.AadharVerificationBx input:focus {
+  box-shadow: 0 0 15px 1px #45f3ff;
+}
+
+.AadharVerificationBx input::placeholder {
+  color: #999
+}
+
+.AadharVerificationBx input[type="submit"],
+.AadharVerificationBx button {
+  background: #45f3ff;
+  border: none;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.AadharVerificationBx input[type="submit"]:hover,
+.AadharVerificationBx button:hover {
+  box-shadow: 0 0 10px #45f3ff, 0 0 60px #45f3ff;
+}
+
+
+.group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.group a:nth-child(2) {
+  color: #ff2770;
+}
+
+input[type='text']::placeholder,
+input[type='file']::placeholder {
+  color: white;
+  /* Change placeholder color here */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  /* Move element up slightly */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .AadharVerificationBx {
+    transform: none !important;
+    margin-bottom: 0 !important;
+  }
+
+  .AadharVerificationlogin {
+    /* margin-left: -27px !important;
+    margin-bottom: 132px !important;
+    width: 300px; */
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
