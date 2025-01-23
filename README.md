@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+## DigiPost Project: Mobile View UI Focused Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The DigiPost project is a mobile-first UI-focused project that enables users to sign up and verify their identity through various means, including OTP, address info, KYC form, Aadhar verification, and face recognition. The project features interactive elements like popups, animations, and a customizable dashboard screen.[Run Project](https://digipost-mobileview.vercel.app/)
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- Frontend : React
+- Deployment : vercel
+
+## Discription
+
+```
+A comprehensive mobile view UI design for the DigiPost project, incorporating:
+
+Core Features:
+
+1. Signup: User registration with OTP validation
+2. Address Info: Address collection with auto-fill and geolocation
+3. KYC Form: Secure and compliant identity verification
+4. Aadhar Verification: Integration with Aadhar database for verification
+5. Face Recognition: Advanced face recognition technology for secure authentication
+6. Verification Code: OTP verification for secure authentication
+7. Popups: Interactive popups for notifications and alerts
+8. Animations: Engaging animations for a seamless user experience
+9. Dashboard Screen: Intuitive and customizable user dashboard
+
 
 ### `npm start`
 
